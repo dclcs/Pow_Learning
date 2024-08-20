@@ -11,6 +11,9 @@
 		400720E42C74EB20008AC431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400720E32C74EB20008AC431 /* ContentView.swift */; };
 		400720E62C74EB21008AC431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400720E52C74EB21008AC431 /* Assets.xcassets */; };
 		400720E92C74EB21008AC431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400720E82C74EB21008AC431 /* Preview Assets.xcassets */; };
+		400720F32C74ECEF008AC431 /* WhileEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400720F22C74ECEF008AC431 /* WhileEffect.swift */; };
+		400720F52C74EDA0008AC431 /* AnyContinuousEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400720F42C74EDA0008AC431 /* AnyContinuousEffect.swift */; };
+		400720F82C74EDE9008AC431 /* PushDownEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400720F72C74EDE9008AC431 /* PushDownEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		400720E32C74EB20008AC431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		400720E52C74EB21008AC431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400720E82C74EB21008AC431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		400720F22C74ECEF008AC431 /* WhileEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhileEffect.swift; sourceTree = "<group>"; };
+		400720F42C74EDA0008AC431 /* AnyContinuousEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyContinuousEffect.swift; sourceTree = "<group>"; };
+		400720F72C74EDE9008AC431 /* PushDownEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushDownEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		400720E02C74EB20008AC431 /* Pow_Learning */ = {
 			isa = PBXGroup;
 			children = (
+				400720EF2C74ECCF008AC431 /* Sources */,
 				400720E12C74EB20008AC431 /* Pow_LearningApp.swift */,
 				400720E32C74EB20008AC431 /* ContentView.swift */,
 				400720E52C74EB21008AC431 /* Assets.xcassets */,
@@ -65,6 +72,40 @@
 				400720E82C74EB21008AC431 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		400720EF2C74ECCF008AC431 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				400720F02C74ECDA008AC431 /* Pow */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		400720F02C74ECDA008AC431 /* Pow */ = {
+			isa = PBXGroup;
+			children = (
+				400720F62C74EDDF008AC431 /* Effects */,
+				400720F12C74ECE4008AC431 /* Infrastructure */,
+			);
+			path = Pow;
+			sourceTree = "<group>";
+		};
+		400720F12C74ECE4008AC431 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				400720F22C74ECEF008AC431 /* WhileEffect.swift */,
+				400720F42C74EDA0008AC431 /* AnyContinuousEffect.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		400720F62C74EDDF008AC431 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				400720F72C74EDE9008AC431 /* PushDownEffect.swift */,
+			);
+			path = Effects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400720F52C74EDA0008AC431 /* AnyContinuousEffect.swift in Sources */,
 				400720E42C74EB20008AC431 /* ContentView.swift in Sources */,
+				400720F32C74ECEF008AC431 /* WhileEffect.swift in Sources */,
 				400720E22C74EB20008AC431 /* Pow_LearningApp.swift in Sources */,
+				400720F82C74EDE9008AC431 /* PushDownEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
